@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameOutletScreen should render correctly 1`] = `
+<div>
+  <div
+    class="css-1d5vf2h"
+  >
+    <div
+      class="css-0"
+    >
+      <div>
+        <div
+          class="css-1wt90mm"
+        >
+          ADVERTISEMENT
+        </div>
+        <ins
+          class="adsbygoogle css-1ujbgzu"
+          data-ad-client="ca-pub-2910351605291781"
+          data-ad-slot="8521368831"
+        />
+      </div>
+      <div
+        class="css-1yo02vn"
+      >
+        <div
+          class="css-dcs3az"
+        >
+          <div
+            class="css-bsfn0c"
+          />
+        </div>
+        <button
+          class="css-1o4p7rv"
+        />
+        <div
+          class="css-1osmfvk"
+        >
+          <button
+            class="css-1o4p7rv"
+          >
+            The Fool
+          </button>
+          <button
+            class="css-1o4p7rv"
+          >
+            The Magician
+          </button>
+          <button
+            class="css-1o4p7rv"
+          >
+            The High Priestess
+          </button>
+          <button
+            class="css-1o4p7rv"
+          >
+            The Empress
+          </button>
+        </div>
+        <button
+          class="css-1szks65"
+          disabled=""
+        >
+          Next
+        </button>
+      </div>
+      <div
+        class="css-1qis57g"
+        data-testid="quiz-timeline"
+      >
+        <div
+          class="css-1c9ii8i"
+        />
+        <div
+          class="css-171q0g0"
+        />
+        <div
+          class="css-171q0g0"
+        />
+        <div
+          class="css-171q0g0"
+        />
+        <div
+          class="css-171q0g0"
+        />
+        <div
+          class="css-171q0g0"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

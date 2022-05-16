@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimpleCard should render correctly negative 1`] = `
+<div>
+  <div
+    class="css-dcs3az"
+  >
+    <div
+      class="css-bsfn0c"
+    />
+    <div
+      class="css-1m3u1jj"
+    >
+      The Fool
+    </div>
+    <div
+      class="css-1ozeh7x"
+    />
+  </div>
+</div>
+`;
+
+exports[`SimpleCard should render correctly positive 1`] = `
+<div>
+  <div
+    class="css-dcs3az"
+  >
+    <div
+      class="css-bsfn0c"
+    />
+    <div
+      class="css-1m3u1jj"
+    >
+      The Fool
+    </div>
+    <div
+      class="css-1ozeh7x"
+    />
+  </div>
+</div>
+`;

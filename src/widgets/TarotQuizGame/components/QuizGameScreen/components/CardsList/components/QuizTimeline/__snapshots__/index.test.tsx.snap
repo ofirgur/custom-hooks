@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuizTimeline should render correctly 1`] = `
+<div>
+  <div
+    class="css-1qis57g"
+    data-testid="quiz-timeline"
+  >
+    <div
+      class="css-17htbpo"
+    />
+    <div
+      class="css-17htbpo"
+    />
+    <div
+      class="css-1c9ii8i"
+    />
+    <div
+      class="css-171q0g0"
+    />
+    <div
+      class="css-171q0g0"
+    />
+    <div
+      class="css-171q0g0"
+    />
+  </div>
+</div>
+`;

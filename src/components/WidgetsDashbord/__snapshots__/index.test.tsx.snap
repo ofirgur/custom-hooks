@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WidgetsDashboard should render correctly 1`] = `
+<div>
+  <div
+    class="css-8gwbof"
+  >
+    <h2
+      class="css-7c3lnj"
+    >
+      EMAIL ACTIVITY WIDGETS
+    </h2>
+    <div
+      class="css-rm55dl"
+    >
+      <div
+        class="css-1flu1tv"
+      >
+        Tarot Memory Game
+      </div>
+      <div
+        class="css-1flu1tv"
+      >
+        Tarot Quiz Game
+      </div>
+      <div
+        class="css-1flu1tv"
+      >
+        Books Game
+      </div>
+      <div
+        class="css-1flu1tv"
+      >
+        Prayer Generator
+      </div>
+    </div>
+  </div>
+</div>
+`;

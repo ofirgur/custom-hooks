@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameScoreResult should render correctly 1`] = `
+<div>
+  <div
+    class="css-1cddgo7"
+  >
+    <img
+      alt=""
+      src="amazing.svg"
+    />
+    <div
+      class="css-71bdbi"
+    >
+      <div
+        class="css-nlmisp"
+      >
+        <span
+          class="text"
+        >
+          Points
+        </span>
+        <span
+          class="value"
+        >
+          1200
+        </span>
+      </div>
+      <div
+        class="css-2ihzuk"
+      >
+        Wow! You're a tarot expert. 6/6 answers correct!
+      </div>
+    </div>
+  </div>
+</div>
+`;

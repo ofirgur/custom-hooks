@@ -1,0 +1,125 @@
+@Library('minutecloud-jenkins-library') _
+import groovy.json.JsonSlurper
+
+def prod_bucketname = "mm-commercial-assets/email/widgets/build/"
+def qa_bucketname = "mm-commercial-assets/email/widgets/qa/build/"
+def PURGE_URL="https://cdn.mmctsvc.com/email/widgets"
+
+pipeline {
+    /*
+    Availible params:
+    BRANCH              Example: master
+    USER                Example: johndoe
+    SERVICE_NAME        Example: mplayer
+    REQUESTED_ACTION    Example: build, deploy
+    TENANT              Example: qa, production
+    */
+
+    agent any
+
+    options {
+        datadog(tags: [
+            "requested_action:${params.REQUESTED_ACTION}",
+            "tenant:${params.TENANT}"
+        ])
+    }
+
+    stages {
+        stage('Build & Chown') {
+            steps {
+                script{
+                    def ID_U = sh(script: 'id -u', returnStdout: true).toString().trim()
+                    def ID_G = sh(script: 'id -g', returnStdout: true).toString().trim()
+
+                    if (params.TENANT == 'qa') {
+                        sh "docker container run --rm -v ${WORKSPACE}/:/src/app \
+                            -w /src/app node:latest sh -c 'yarn install && yarn build:explorer && chown ${ID_U}:${ID_G} -R /src/app/*'"
+                        
+                    }
+                    else {
+                        sh "docker container run --rm -v ${WORKSPACE}/:/src/app \
+                            -w /src/app node:latest sh -c 'yarn install && yarn build && chown ${ID_U}:${ID_G} -R /src/app/*'"
+                    }
+                    
+                }
+            }
+        }
+
+        stage ('upload to S3') {
+            when {
+                expression { params.REQUESTED_ACTION == 'deploy' }
+            }
+            steps {
+                script {
+                    if (params.TENANT == 'qa') {
+                        uploads3("${WORKSPACE}/build","${qa_bucketname}")
+                    }
+                    else {
+                        uploads3("${WORKSPACE}/build","${prod_bucketname}")
+                    }
+                }
+            }
+        }
+
+        stage ('Purge-Assets') {
+            when {
+                expression { params.REQUESTED_ACTION == 'deploy' }
+            }
+            steps {
+                echo 'purge assetes in Akamai'
+                script {
+                    if (params.TENANT == 'qa') {
+                        sh """
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}qa/build/develpment/static/js/main.b015798d.js
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}qa/build/develpment/static/js/main.b015798d.js.LICENSE.txt
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}qa/build/develpment/static/main.b015798d.js.map
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}qa/build/develpment/static/js/tarot-memory-game.32f95f52.chunk.js
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}qa/build/develpment/static/js/tarot-memory-game.32f95f52.chunk.js.map
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}qa/build/develpment/static/js/tarot-quiz-game.494dcc65.chunk.js
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}qa/build/develpment/static/js/tarot-quiz-game.494dcc65.chunk.js.map
+                        """
+                    }
+                    else {
+                        sh """
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}/build/embed/static/js/widgetEmbed.js
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}/build/embed/static/js/795.6a21cb38.chunk.js
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}/build/embed/static/books-game.3164ca39.chunk.js
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}/build/embed/static/js/main.a00d13af.js
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}/build/embed/static/js/prayers-generator.0e7e0057.chunk.js
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}/build/embed/static/js/tarot-memory-game.f55b585c.chunk.js
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}/build/embed/static/js/tarot-quiz-game.64504751.chunk.js
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}/build/embed/static/js/795.6a21cb38.chunk.js.map
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}/build/embed/static/js/books-game.3164ca39.chunk.js.map
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}/build/embed/static/js/main.a00d13af.js.map
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}/build/embed/static/js/prayers-generator.0e7e0057.chunk.js.map
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}/build/embed/static/js/tarot-memory-game.f55b585c.chunk.js.map
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}/build/embed/static/js/tarot-quiz-game.64504751.chunk.js.map
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}/build/embed/static/js/795.6a21cb38.chunk.js.LICENSE.txt
+                            docker run minutemedia/akamai-purge akamai-purge --section default invalidate ${PURGE_URL}/build/embed/static/js/main.a00d13af.js.LICENSE.txt
+                        """
+                    }
+                }
+            }
+        }
+        stage('post-deploy') {
+                    when {
+                        expression { params.REQUESTED_ACTION == 'deploy' }
+                    }
+                    steps {
+                        script {
+                            if (params.TENANT == 'qa') {
+                                userNotification("Email-Activity-Widget URL:  https://cdn.mmctsvc.com/email/widgets/qa/build/development/index.html")
+                            }
+                            else {
+                                userNotification("Email-Activity-Widget URL:  https://cdn.mmctsvc.com/email/widgets/build/embed/index.html")
+                            }
+                        }
+                    }
+                }
+    }
+    post {
+        cleanup {
+            cleanWs()
+        }
+    }       
+}

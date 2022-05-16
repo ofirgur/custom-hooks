@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimpleGameCard should render correctly 1`] = `
+<div>
+  <div
+    class="css-ab6uec"
+  >
+    <img
+      class="css-u7q6aj"
+      src="https://cdn.wazimo.com/media/images/the-fool/61828a3ede5cd.jpg"
+    />
+    <span
+      class="css-zyxcip"
+    >
+      The Fool
+    </span>
+    <a
+      class="css-adc7pd"
+      href="https://all-tarot.com/cards/the-fool/"
+    >
+      Meaning &gt;&gt;
+    </a>
+  </div>
+</div>
+`;

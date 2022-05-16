@@ -1,0 +1,394 @@
+{
+  "cards": [
+    {
+      "name": "The Fool",
+      "image": "https://cdn.wazimo.com/media/images/the-fool/61828a3ede5cd.jpg",
+      "link": "https://all-tarot.com/cards/the-fool/"
+    },
+    {
+      "name": "The Magician",
+      "image": "https://cdn.wazimo.com/media/images/the-magician/61828d5956e8c.jpg",
+      "link": "https://all-tarot.com/cards/the-magician/"
+    },
+    {
+      "name": "The High Priestess",
+      "image": "https://cdn.wazimo.com/media/images/the-high-priestess/61828aeea1b59.jpg",
+      "link": "https://all-tarot.com/cards/the-high-priestess/"
+    },
+    {
+      "name": "The Empress",
+      "image": "https://cdn.wazimo.com/media/images/the-empress/61828a2218686.jpg",
+      "link": "https://all-tarot.com/cards/the-empress/"
+    },
+    {
+      "name": "The Emperor",
+      "image": "https://cdn.wazimo.com/media/images/the-emperor/61828a0803996.jpg",
+      "link": "https://all-tarot.com/cards/the-emperor/"
+    },
+    {
+      "name": "The Hierophant",
+      "image": "https://cdn.wazimo.com/media/images/the-hierophant/61828abd21d34.jpg",
+      "link": "https://all-tarot.com/cards/the-hierophant/"
+    },
+    {
+      "name": "The Lovers",
+      "image": "https://cdn.wazimo.com/media/images/the-lovers/61828d38197f3.jpg",
+      "link": "https://all-tarot.com/cards/the-lovers/"
+    },
+    {
+      "name": "The Chariot",
+      "image": "https://cdn.wazimo.com/media/images/the-chariot/618289a97519b.jpg",
+      "link": "https://all-tarot.com/cards/the-chariot/"
+    },
+    {
+      "name": "Strength",
+      "image": "https://cdn.wazimo.com/media/images/strength/6182895c7d507.jpg",
+      "link": "https://all-tarot.com/cards/strength/"
+    },
+    {
+      "name": "The Hermit",
+      "image": "https://cdn.wazimo.com/media/images/the-hermit/61828a986fb52.jpg",
+      "link": "https://all-tarot.com/cards/the-hermit/"
+    },
+    {
+      "name": "Wheel of Fortune",
+      "image": "https://cdn.wazimo.com/media/images/wheel-of-fortune/61828e7c171c3.jpg",
+      "link": "https://all-tarot.com/cards/wheel-of-fortune/"
+    },
+    {
+      "name": "Justice",
+      "image": "https://cdn.wazimo.com/media/images/justice/618288c634b3a.jpg",
+      "link": "https://all-tarot.com/cards/justice/"
+    },
+    {
+      "name": "The Hanged Man",
+      "image": "https://cdn.wazimo.com/media/images/the-hanged-man/61828a5a29c70.jpg",
+      "link": "https://all-tarot.com/cards/the-hanged-man/"
+    },
+    {
+      "name": "Death",
+      "image": "https://cdn.wazimo.com/media/images/death/618288075af3c.jpg",
+      "link": "https://all-tarot.com/cards/death/"
+    },
+    {
+      "name": "Temperance",
+      "image": "https://cdn.wazimo.com/media/images/temperance/618289857aff2.jpg",
+      "link": "https://all-tarot.com/cards/temperance/"
+    },
+    {
+      "name": "The Devil",
+      "image": "https://cdn.wazimo.com/media/images/the-devil/618289d52e2cd.jpg",
+      "link": "https://all-tarot.com/cards/the-devil/"
+    },
+    {
+      "name": "The Tower",
+      "image": "https://cdn.wazimo.com/media/images/the-tower/61828dd058b47.jpg",
+      "link": "https://all-tarot.com/cards/the-tower/"
+    },
+    {
+      "name": "The Star",
+      "image": "https://cdn.wazimo.com/media/images/the-star/61828d942319f.jpg",
+      "link": "https://all-tarot.com/cards/the-star/"
+    },
+    {
+      "name": "The Moon",
+      "image": "https://cdn.wazimo.com/media/images/the-moon/61828d76121f6.jpg",
+      "link": "https://all-tarot.com/cards/the-moon/"
+    },
+    {
+      "name": "The Sun",
+      "image": "https://cdn.wazimo.com/media/images/the-sun/61828db2dd37c.jpg",
+      "link": "https://all-tarot.com/cards/the-sun/"
+    },
+    {
+      "name": "Judgement",
+      "image": "https://cdn.wazimo.com/media/images/judgement/6182889841f4a.jpg",
+      "link": "https://all-tarot.com/cards/judgement/"
+    },
+    {
+      "name": "The World",
+      "image": "https://cdn.wazimo.com/media/images/the-world/61828deb1efd2.jpg",
+      "link": "https://all-tarot.com/cards/the-world/"
+    },
+    {
+      "name": "Ace of Wands",
+      "image": "https://cdn.wazimo.com/media/images/ace-of-wands/618284a5879f3.jpg",
+      "link": "https://all-tarot.com/cards/ace-of-wands/"
+    },
+    {
+      "name": "Two of Wands",
+      "image": "https://cdn.wazimo.com/media/images/two-of-wands/61828e4d4ec8c.jpg",
+      "link": "https://all-tarot.com/cards/two-of-wands/"
+    },
+    {
+      "name": "Three of Wands",
+      "image": "https://cdn.wazimo.com/media/images/three-of-wands/61828e237878f.jpg",
+      "link": "https://all-tarot.com/cards/three-of-wands/"
+    },
+    {
+      "name": "Fourth of Wands",
+      "image": "https://cdn.wazimo.com/media/images/four-of-wands/61828876de2bb.jpg",
+      "link": "https://all-tarot.com/cards/four-of-wands/"
+    },
+    {
+      "name": "Five of Wands",
+      "image": "https://cdn.wazimo.com/media/images/five-of-wands/618288567aa97.jpg",
+      "link": "https://all-tarot.com/cards/five-of-wands/"
+    },
+    {
+      "name": "Six of Wands",
+      "image": "https://cdn.wazimo.com/media/images/six-of-wands/618289323d765.jpg",
+      "link": "https://all-tarot.com/cards/six-of-wands/"
+    },
+    {
+      "name": "Seven of Wands",
+      "image": "https://cdn.wazimo.com/media/images/seven-of-wands/6182890d2b7eb.jpg",
+      "link": "https://all-tarot.com/cards/seven-of-wands/"
+    },
+    {
+      "name": "Eight of Wands",
+      "image": "https://cdn.wazimo.com/media/images/eight-of-wands/61828828ad2d0.jpg",
+      "link": "https://all-tarot.com/cards/eight-of-wands/"
+    },
+    {
+      "name": "Nine of Wands",
+      "image": "https://cdn.wazimo.com/media/images/nine-of-wands/618288eb5b92b.jpg",
+      "link": "https://all-tarot.com/cards/nine-of-wands/"
+    },
+    {
+      "name": "Ten of Wands",
+      "image": "https://cdn.wazimo.com/media/images/ten-of-wands/6183da4fccb77.jpg",
+      "link": "https://all-tarot.com/cards/ten-of-wands/"
+    },
+    {
+      "name": "Page of Wands",
+      "image": "https://cdn.wazimo.com/media/images/page-of-wands/6183db20e7406.jpg",
+      "link": "https://all-tarot.com/cards/page-of-wands/"
+    },
+    {
+      "name": "Knight of Wands",
+      "image": "https://cdn.wazimo.com/media/images/knight-of-wands/6188db6aa45c3.jpg",
+      "link": "https://all-tarot.com/cards/knight-of-wands/"
+    },
+    {
+      "name": "Queen of Wands",
+      "image": "https://cdn.wazimo.com/media/images/queen-of-wands/6183dac3668aa.jpg",
+      "link": "https://all-tarot.com/cards/queen-of-wands/"
+    },
+    {
+      "name": "King of Wands",
+      "image": "https://cdn.wazimo.com/media/images/king-of-wands/6188dbd0430c7.jpg",
+      "link": "https://all-tarot.com/cards/king-of-wands/"
+    },
+    {
+      "name": "Ace of Cups",
+      "image": "https://cdn.wazimo.com/media/images/ace-of-cups/6188dd4c86604.jpg",
+      "link": "https://all-tarot.com/cards/ace-of-cups/"
+    },
+    {
+      "name": "Two of Cups",
+      "image": "https://cdn.wazimo.com/media/images/two-of-cups/6188d9990ac6e.jpg",
+      "link": "https://all-tarot.com/cards/two-of-cups/"
+    },
+    {
+      "name": "Three of Cups",
+      "image": "https://cdn.wazimo.com/media/images/three-of-cups/6188d9f55d3f3.jpg",
+      "link": "https://all-tarot.com/cards/three-of-cups/"
+    },
+    {
+      "name": "Four of Cups",
+      "image": "https://cdn.wazimo.com/media/images/four-of-cups/6188dc7bec688.jpg",
+      "link": "https://all-tarot.com/cards/four-of-cups/"
+    },
+    {
+      "name": "Five of Cups",
+      "image": "https://cdn.wazimo.com/media/images/five-of-cups/6188dcdd7599a.jpg",
+      "link": "https://all-tarot.com/cards/five-of-cups/"
+    },
+    {
+      "name": "Six of Cups",
+      "image": "https://cdn.wazimo.com/media/images/six-of-cups/6188da898f9cd.jpg",
+      "link": "https://all-tarot.com/cards/six-of-cups/"
+    },
+    {
+      "name": "Seven of Cups",
+      "image": "https://cdn.wazimo.com/media/images/seven-of-cups/6188daac770fb.jpg",
+      "link": ""
+    },
+    {
+      "name": "Eight of Cups",
+      "image": "https://cdn.wazimo.com/media/images/eight-of-cups/6188dd02df317.jpg",
+      "link": "https://all-tarot.com/cards/eight-of-cups/"
+    },
+    {
+      "name": "Nine of Cup",
+      "image": "https://cdn.wazimo.com/media/images/nine-of-cups/6188db3918a4f.jpg",
+      "link": "https://all-tarot.com/cards/nine-of-cups/"
+    },
+    {
+      "name": "Ten of Cups",
+      "image": "https://cdn.wazimo.com/media/images/ten-of-cups/6188da30a91bc.jpg",
+      "link": "https://all-tarot.com/cards/ten-of-cups/"
+    },
+    {
+      "name": "Page of Cups",
+      "image": "https://cdn.wazimo.com/media/images/page-of-cups/6188db144e14b.jpg",
+      "link": "https://all-tarot.com/cards/page-of-cups/"
+    },
+    {
+      "name": "Knight of Cups",
+      "image": "https://cdn.wazimo.com/media/images/knight-of-cups/6188db9d2a61b.jpg",
+      "link": "https://all-tarot.com/cards/knight-of-cups/"
+    },
+    {
+      "name": "Queen of Cups",
+      "image": "https://cdn.wazimo.com/media/images/queen-of-cups/6188dae2c3a60.jpg",
+      "link": "https://all-tarot.com/cards/queen-of-cups/"
+    },
+    {
+      "name": "King of Cups",
+      "image": "https://cdn.wazimo.com/media/images/king-of-cups/6188dc19db805.jpg",
+      "link": "https://all-tarot.com/cards/king-of-cups/"
+    },
+    {
+      "name": "Ace of Swords",
+      "image": "https://cdn.wazimo.com/media/images/ace-of-swords/6188dd281199b.jpg",
+      "link": "https://all-tarot.com/cards/ace-of-swords/"
+    },
+    {
+      "name": "Two of Swords",
+      "image": "https://cdn.wazimo.com/media/images/two-of-swords/6188d9636142d.jpg",
+      "link": "https://all-tarot.com/cards/two-of-swords/"
+    },
+    {
+      "name": "Three of Swords",
+      "image": "https://cdn.wazimo.com/media/images/three-of-swords/6188d9da72181.jpg",
+      "link": "https://all-tarot.com/cards/three-of-swords/"
+    },
+    {
+      "name": "Four of Swords",
+      "image": "https://cdn.wazimo.com/media/images/four-of-swords/6188dc4c5fc71.jpg",
+      "link": "https://all-tarot.com/cards/four-of-swords/"
+    },
+    {
+      "name": "Five of Swords",
+      "image": "https://cdn.wazimo.com/media/images/five-of-swords/6188dcaa12df5.jpg",
+      "link": "https://all-tarot.com/cards/five-of-swords/"
+    },
+    {
+      "name": "Six of Swords",
+      "image": "https://cdn.wazimo.com/media/images/six-of-swords/6188da5ed3e98.jpg",
+      "link": "https://all-tarot.com/cards/six-of-swords/"
+    },
+    {
+      "name": "Seven of Swords",
+      "image": "https://cdn.wazimo.com/media/images/seven-of-swords/619c9e9d3c4b7.jpg",
+      "link": "https://all-tarot.com/cards/seven-of-swords/"
+    },
+    {
+      "name": "Eight of Swords",
+      "image": "https://cdn.wazimo.com/media/images/eight-of-swords/619c9ed6da300.jpg",
+      "link": "https://all-tarot.com/cards/eight-of-swords/"
+    },
+    {
+      "name": "Nine of Swords",
+      "image": "https://cdn.wazimo.com/media/images/nine-of-swords/619c9fabe98ba.jpg",
+      "link": "https://all-tarot.com/cards/nine-of-swords/"
+    },
+    {
+      "name": "Ten of Swords",
+      "image": "https://cdn.wazimo.com/media/images/ten-of-swords/619c9fd36a26b.jpg",
+      "link": "https://all-tarot.com/cards/ten-of-swords/"
+    },
+    {
+      "name": "Page of Swords",
+      "image": "https://cdn.wazimo.com/media/images/knight-of-swords/619ca028cd084.jpg",
+      "link": "https://all-tarot.com/cards/page-of-swords/"
+    },
+    {
+      "name": "Knight of Swords",
+      "image": "https://cdn.wazimo.com/media/images/knight-of-swords/619ca028cd084.jpg",
+      "link": "https://all-tarot.com/cards/knight-of-swords/"
+    },
+    {
+      "name": "Queen of Swords",
+      "image": "https://cdn.wazimo.com/media/images/queen-of-swords/619ca05acd72b.jpg",
+      "link": "https://all-tarot.com/cards/queen-of-swords/"
+    },
+    {
+      "name": "King of Swords",
+      "image": "https://cdn.wazimo.com/media/images/king-of-swords/619ca07d37dd4.jpg",
+      "link": "https://all-tarot.com/cards/king-of-swords/"
+    },
+    {
+      "name": "Ace of Pentacles",
+      "image": "https://cdn.wazimo.com/media/images/ace-of-pentacles/619ca15b9f187.jpg",
+      "link": "https://all-tarot.com/cards/ace-of-pentacles/"
+    },
+    {
+      "name": "Two of Pentacles",
+      "image": "https://cdn.wazimo.com/media/images/two-of-pentacles/619ca19b25cf3.jpg",
+      "link": "https://all-tarot.com/cards/two-of-pentacles/"
+    },
+    {
+      "name": "Three of Pentacles",
+      "image": "https://cdn.wazimo.com/media/images/three-of-pentacles/619ca1bc161aa.jpg",
+      "link": "https://all-tarot.com/cards/three-of-pentacles/"
+    },
+    {
+      "name": "Four of Pentacles",
+      "image": "https://cdn.wazimo.com/media/images/four-of-pentacles/619ca1d9a7c3a.jpg",
+      "link": "https//all-tarot.com/cards/four-of-pentacles/"
+    },
+    {
+      "name": "Five of Pentacles",
+      "image": "https://cdn.wazimo.com/media/images/five-of-pentacles/619ca1f77c910.jpg",
+      "link": "https://all-tarot.com/cards/five-of-pentacles/"
+    },
+    {
+      "name": "Six of Pentacles",
+      "image": "https://cdn.wazimo.com/media/images/six-of-pentacles/619ca2159b1cb.jpg",
+      "link": "https://all-tarot.com/cards/six-of-pentacles/"
+    },
+    {
+      "name": "Seven of Pentacles",
+      "image": "https://cdn.wazimo.com/media/images/seven-of-pentacles/619ca244da51c.jpg",
+      "link": "https://all-tarot.com/cards/seven-of-pentacles/"
+    },
+    {
+      "name": "Eight of Pentacles",
+      "image": "https://cdn.wazimo.com/media/images/eight-of-pentacles/619ca266c4d37.jpg",
+      "link": "https://all-tarot.com/cards/eight-of-pentacles/"
+    },
+    {
+      "name": "Nine of Pentacles",
+      "image": "https://cdn.wazimo.com/media/images/nine-of-pentacles/619ca28c50a71.jpg",
+      "link": "https://all-tarot.com/cards/nine-of-pentacles/"
+    },
+    {
+      "name": "Ten of Pentacles",
+      "image": "https://cdn.wazimo.com/media/images/ten-of-pentacles/619ca2ad36390.jpg",
+      "link": "https://all-tarot.com/cards/ten-of-pentacles/"
+    },
+    {
+      "name": "Page of Pentacles",
+      "image": "https://cdn.wazimo.com/media/images/page-of-pentacles/619ca2cdc5cb9.jpg",
+      "link": "https://all-tarot.com/cards/page-of-pentacles/"
+    },
+    {
+      "name": "Knight of Pentacles",
+      "image": "https://cdn.wazimo.com/media/images/knight-of-pentacles/619ca7169bea6.jpg",
+      "link": "https://all-tarot.com/cards/knight-of-pentacles/"
+    },
+    {
+      "name": "Queen of Pentacles",
+      "image": "https://cdn.wazimo.com/media/images/queen-of-pentacles/619ca742dbe32.jpg",
+      "link": "https://all-tarot.com/cards/queen-of-pentacles/"
+    },
+    {
+      "name": "King of Pentacles",
+      "image": "https://cdn.wazimo.com/media/images/king-of-pentacles/619ca75f50df3.jpg",
+      "link": "https://all-tarot.com/cards/king-of-pentacles/"
+    }
+  ]
+}

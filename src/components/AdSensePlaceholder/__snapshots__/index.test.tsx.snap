@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WidgetsDashboard should render correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="css-1wt90mm"
+    >
+      ADVERTISEMENT
+    </div>
+    <ins
+      class="adsbygoogle css-1ujbgzu"
+      data-ad-client="ca-pub-2910351605291781"
+      data-ad-slot="8521368831"
+    />
+  </div>
+</div>
+`;

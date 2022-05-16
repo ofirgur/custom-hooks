@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TarotMemoryGame should render correctly 1`] = `
+<div>
+  <div
+    class="css-6l25fd"
+  >
+    <div
+      class="css-1j3umj3"
+    >
+      <div>
+        <div
+          class="css-1wt90mm"
+        >
+          ADVERTISEMENT
+        </div>
+        <ins
+          class="adsbygoogle css-1ujbgzu"
+          data-ad-client="ca-pub-2910351605291781"
+          data-ad-slot="8521368831"
+        />
+      </div>
+      <h4
+        class="css-ujyrfm"
+      >
+        Select A Level
+      </h4>
+      <div
+        class="css-1gm5two"
+      >
+        <button
+          class="css-1i01t95"
+          role="button"
+        >
+          <img
+            alt=""
+            class="css-9rlldu"
+            src="beginner.png"
+          />
+          <span
+            class="css-1kp7frp"
+          >
+            Beginner
+          </span>
+        </button>
+        <button
+          class="css-1i01t95"
+          role="button"
+        >
+          <img
+            alt=""
+            class="css-9rlldu"
+            src="intermediate.png"
+          />
+          <span
+            class="css-1kp7frp"
+          >
+            Intermediate
+          </span>
+        </button>
+        <button
+          class="css-1i01t95"
+          role="button"
+        >
+          <img
+            alt=""
+            class="css-9rlldu"
+            src="advanced.png"
+          />
+          <span
+            class="css-1kp7frp"
+          >
+            Advanced
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

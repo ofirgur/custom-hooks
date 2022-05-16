@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameScreenTitle should render correctly 1`] = `
+<div>
+  <div
+    class="css-129egsy"
+  >
+    <div
+      class="css-vhnop0"
+    >
+      <span
+        class="css-fl77un"
+      >
+        Matches
+      </span>
+      <span
+        class="css-21roxi"
+      >
+        2
+      </span>
+    </div>
+    <div
+      class="css-vhnop0"
+    >
+      <div
+        class="css-vhnop0"
+      >
+        <span
+          class="css-fl77un"
+        >
+          Moves
+        </span>
+        <span
+          class="css-21roxi"
+        >
+          6
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

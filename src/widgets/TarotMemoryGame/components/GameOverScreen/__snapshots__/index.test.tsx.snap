@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameOverScreen should render correctly 1`] = `
+<div>
+  <div
+    class="css-1jxoer2"
+  >
+    <div>
+      <div
+        class="css-1wt90mm"
+      >
+        ADVERTISEMENT
+      </div>
+      <ins
+        class="adsbygoogle css-1ujbgzu"
+        data-ad-client="ca-pub-2910351605291781"
+        data-ad-slot="8521368831"
+      />
+    </div>
+    <div
+      class="css-19o8oeu"
+    >
+      <img
+        alt=""
+        src="well_done.svg"
+      />
+      <div
+        class="css-17md5yc"
+      >
+        <div
+          class="css-arp9it"
+        >
+          <span
+            class="text"
+          >
+            Moves
+          </span>
+          <span
+            class="value"
+          >
+            7
+          </span>
+        </div>
+        <div
+          class="css-axq4dr"
+        >
+          <span
+            class="text"
+          >
+            Points
+          </span>
+          <span
+            class="value"
+          >
+            800
+          </span>
+        </div>
+      </div>
+    </div>
+    <button
+      class="css-p1skgv"
+    >
+      Start Over
+    </button>
+    <div
+      class="css-ow82kt"
+    >
+      Read more about the cards you were able to match
+    </div>
+    <div
+      class="css-lhbfbe"
+    >
+      <div
+        class="css-ab6uec"
+      >
+        <img
+          class="css-u7q6aj"
+          src="https://cdn.wazimo.com/media/images/the-fool/61828a3ede5cd.jpg"
+        />
+        <span
+          class="css-zyxcip"
+        >
+          The Fool
+        </span>
+        <a
+          class="css-adc7pd"
+          href=""
+        >
+          Meaning &gt;&gt;
+        </a>
+      </div>
+      
+      <div
+        class="css-ab6uec"
+      >
+        <img
+          class="css-u7q6aj"
+          src="https://cdn.wazimo.com/media/images/the-magician/61828d5956e8c.jpg"
+        />
+        <span
+          class="css-zyxcip"
+        >
+          The Magician
+        </span>
+        <a
+          class="css-adc7pd"
+          href=""
+        >
+          Meaning &gt;&gt;
+        </a>
+      </div>
+      
+      <div
+        class="css-ab6uec"
+      >
+        <img
+          class="css-u7q6aj"
+          src="https://cdn.wazimo.com/media/images/the-high-priestess/61828aeea1b59.jpg"
+        />
+        <span
+          class="css-zyxcip"
+        >
+          The High Priestess
+        </span>
+        <a
+          class="css-adc7pd"
+          href=""
+        >
+          Meaning &gt;&gt;
+        </a>
+      </div>
+      
+      <div
+        class="css-ab6uec"
+      >
+        <img
+          class="css-u7q6aj"
+          src="https://cdn.wazimo.com/media/images/the-empress/61828a2218686.jpg"
+        />
+        <span
+          class="css-zyxcip"
+        >
+          The Empress
+        </span>
+        <a
+          class="css-adc7pd"
+          href=""
+        >
+          Meaning &gt;&gt;
+        </a>
+      </div>
+      
+    </div>
+    <div>
+      <div
+        class="css-1wt90mm"
+      >
+        ADVERTISEMENT
+      </div>
+      <ins
+        class="adsbygoogle css-1ujbgzu"
+        data-ad-client="ca-pub-2910351605291781"
+        data-ad-slot="8521368831"
+      />
+    </div>
+  </div>
+</div>
+`;

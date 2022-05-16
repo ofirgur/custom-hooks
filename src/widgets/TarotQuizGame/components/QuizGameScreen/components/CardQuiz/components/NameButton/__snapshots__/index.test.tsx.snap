@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NameButton should render correctly 1`] = `
+<div>
+  <button
+    class="css-1o4p7rv"
+  >
+    The Fool
+  </button>
+</div>
+`;

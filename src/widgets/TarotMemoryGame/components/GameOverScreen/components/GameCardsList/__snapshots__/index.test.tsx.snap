@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameCardsList should render correctly 1`] = `
+<div>
+  <div
+    class="css-lhbfbe"
+  >
+    <div
+      class="css-ab6uec"
+    >
+      <img
+        class="css-u7q6aj"
+        src="https://cdn.wazimo.com/media/images/the-fool/61828a3ede5cd.jpg"
+      />
+      <span
+        class="css-zyxcip"
+      >
+        The Fool
+      </span>
+      <a
+        class="css-adc7pd"
+        href=""
+      >
+        Meaning &gt;&gt;
+      </a>
+    </div>
+    
+    <div
+      class="css-ab6uec"
+    >
+      <img
+        class="css-u7q6aj"
+        src="https://cdn.wazimo.com/media/images/the-magician/61828d5956e8c.jpg"
+      />
+      <span
+        class="css-zyxcip"
+      >
+        The Magician
+      </span>
+      <a
+        class="css-adc7pd"
+        href=""
+      >
+        Meaning &gt;&gt;
+      </a>
+    </div>
+    
+    <div
+      class="css-ab6uec"
+    >
+      <img
+        class="css-u7q6aj"
+        src="https://cdn.wazimo.com/media/images/the-high-priestess/61828aeea1b59.jpg"
+      />
+      <span
+        class="css-zyxcip"
+      >
+        The High Priestess
+      </span>
+      <a
+        class="css-adc7pd"
+        href=""
+      >
+        Meaning &gt;&gt;
+      </a>
+    </div>
+    
+    <div
+      class="css-ab6uec"
+    >
+      <img
+        class="css-u7q6aj"
+        src="https://cdn.wazimo.com/media/images/the-empress/61828a2218686.jpg"
+      />
+      <span
+        class="css-zyxcip"
+      >
+        The Empress
+      </span>
+      <a
+        class="css-adc7pd"
+        href=""
+      >
+        Meaning &gt;&gt;
+      </a>
+    </div>
+    
+  </div>
+</div>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LevelButton should render correctly 1`] = `
+<div>
+  <button
+    class="css-1i01t95"
+    role="button"
+  >
+    <img
+      alt=""
+      class="css-9rlldu"
+      src="beginner.png"
+    />
+    <span
+      class="css-1kp7frp"
+    >
+      Beginner
+    </span>
+  </button>
+</div>
+`;

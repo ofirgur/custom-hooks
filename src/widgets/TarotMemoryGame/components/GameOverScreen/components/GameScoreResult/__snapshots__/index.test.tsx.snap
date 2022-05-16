@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameScoreResult should render correctly 1`] = `
+<div>
+  <div
+    class="css-19o8oeu"
+  >
+    <img
+      alt=""
+      src="well_done.svg"
+    />
+    <div
+      class="css-17md5yc"
+    >
+      <div
+        class="css-arp9it"
+      >
+        <span
+          class="text"
+        >
+          Moves
+        </span>
+        <span
+          class="value"
+        >
+          8
+        </span>
+      </div>
+      <div
+        class="css-axq4dr"
+      >
+        <span
+          class="text"
+        >
+          Points
+        </span>
+        <span
+          class="value"
+        >
+          800
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

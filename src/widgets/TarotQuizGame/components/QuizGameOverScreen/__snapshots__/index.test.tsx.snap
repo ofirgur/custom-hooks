@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuizGameOverScreen should render correctly 1`] = `
+<div>
+  <div
+    class="css-3mdkmj"
+  >
+    <div
+      class="css-1cddgo7"
+    >
+      <img
+        alt=""
+        src="try_again.svg"
+      />
+      <div
+        class="css-71bdbi"
+      >
+        <div
+          class="css-nlmisp"
+        >
+          <span
+            class="text"
+          >
+            Points
+          </span>
+          <span
+            class="value"
+          >
+            0
+          </span>
+        </div>
+        <div
+          class="css-2ihzuk"
+        >
+          Better luck next time! You got 0/6 answers correct﻿
+        </div>
+      </div>
+    </div>
+    <button
+      class="css-1s431sp"
+    >
+      Start Over
+    </button>
+    <button
+      class="css-1gkskij"
+    >
+      Yes No Tarot
+    </button>
+    <div>
+      <div
+        class="css-1wt90mm"
+      >
+        ADVERTISEMENT
+      </div>
+      <ins
+        class="adsbygoogle css-1ujbgzu"
+        data-ad-client="ca-pub-2910351605291781"
+        data-ad-slot="8521368831"
+      />
+    </div>
+    <div
+      class="css-1fv4f4b"
+    />
+  </div>
+</div>
+`;

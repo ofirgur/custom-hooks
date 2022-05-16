@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlipPacketCard should render correctly 1`] = `
+<div>
+  <div
+    class="css-1byttgp"
+  >
+    <div
+      class="css-lls9wb"
+    >
+      <div
+        class="flip-card-inner css-13l18et"
+      >
+        <div
+          class="css-169sjrw"
+        />
+        <div
+          class="css-16o5g78"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

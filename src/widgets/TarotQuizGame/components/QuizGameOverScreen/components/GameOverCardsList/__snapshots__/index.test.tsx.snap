@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameOverCardsList should render correctly 1`] = `
+<div>
+  <div
+    class="css-1fv4f4b"
+  >
+    <div
+      class="css-dcs3az"
+    >
+      <div
+        class="css-bsfn0c"
+      />
+      <div
+        class="css-1m3u1jj"
+      >
+        The Fool
+      </div>
+      <div
+        class="css-pnt39a"
+      />
+    </div>
+    <div
+      class="css-dcs3az"
+    >
+      <div
+        class="css-bsfn0c"
+      />
+      <div
+        class="css-1m3u1jj"
+      >
+        The Magician
+      </div>
+      <div
+        class="css-1ozeh7x"
+      />
+    </div>
+    <div
+      class="css-dcs3az"
+    >
+      <div
+        class="css-bsfn0c"
+      />
+      <div
+        class="css-1m3u1jj"
+      >
+        The Fool
+      </div>
+      <div
+        class="css-pnt39a"
+      />
+    </div>
+    <div
+      class="css-dcs3az"
+    >
+      <div
+        class="css-bsfn0c"
+      />
+      <div
+        class="css-1m3u1jj"
+      >
+        The Fool
+      </div>
+      <div
+        class="css-pnt39a"
+      />
+    </div>
+    <div
+      class="css-dcs3az"
+    >
+      <div
+        class="css-bsfn0c"
+      />
+      <div
+        class="css-1m3u1jj"
+      >
+        The Fool
+      </div>
+      <div
+        class="css-pnt39a"
+      />
+    </div>
+    <div
+      class="css-dcs3az"
+    >
+      <div
+        class="css-bsfn0c"
+      />
+      <div
+        class="css-1m3u1jj"
+      >
+        The Fool
+      </div>
+      <div
+        class="css-pnt39a"
+      />
+    </div>
+  </div>
+</div>
+`;

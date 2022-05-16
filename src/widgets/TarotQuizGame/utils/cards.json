@@ -1,0 +1,316 @@
+{
+  "cards": [
+    {
+      "name": "The Fool",
+      "image": "https://storage.googleapis.com/wz_email_media/images/the_fool_quiz.png"
+    },
+    {
+      "name": "The Magician",
+      "image": "https://storage.googleapis.com/wz_email_media/images/the_magician_quiz.png"
+    },
+    {
+      "name": "The High Priestess",
+      "image": "https://storage.googleapis.com/wz_email_media/images/the_high_priestess_quiz.png"
+    },
+    {
+      "name": "The Empress",
+      "image": "https://storage.googleapis.com/wz_email_media/images/the_empress_quiz.png"
+    },
+    {
+      "name": "The Emperor",
+      "image": "https://storage.googleapis.com/wz_email_media/images/the_emperor_quiz.png"
+    },
+    {
+      "name": "The Hierophant",
+      "image": "https://storage.googleapis.com/wz_email_media/images/the_hierophant_quiz.png"
+    },
+    {
+      "name": "The Lovers",
+      "image": "https://storage.googleapis.com/wz_email_media/images/the_lovers_quiz.png"
+    },
+    {
+      "name": "The Chariot",
+      "image": "https://storage.googleapis.com/wz_email_media/images/the_chariot_quiz.png"
+    },
+    {
+      "name": "Strength",
+      "image": "https://storage.googleapis.com/wz_email_media/images/strength_quiz.png"
+    },
+    {
+      "name": "The Hermit",
+      "image": "https://storage.googleapis.com/wz_email_media/images/the_hermit_quiz.png"
+    },
+    {
+      "name": "Wheel of Fortune",
+      "image": "https://storage.googleapis.com/wz_email_media/images/wheel_of_fortune_quiz.png"
+    },
+    {
+      "name": "Justice",
+      "image": "https://storage.googleapis.com/wz_email_media/images/justice_quiz.png"
+    },
+    {
+      "name": "The Hanged Man",
+      "image": "https://storage.googleapis.com/wz_email_media/images/the_hanged_man_quiz.png"
+    },
+    {
+      "name": "Death",
+      "image": "https://storage.googleapis.com/wz_email_media/images/death_quiz.png"
+    },
+    {
+      "name": "Temperance",
+      "image": "https://storage.googleapis.com/wz_email_media/images/temperance_quiz.png"
+    },
+    {
+      "name": "The Devil",
+      "image": "https://storage.googleapis.com/wz_email_media/images/the_devil_quiz.png"
+    },
+    {
+      "name": "The Tower",
+      "image": "https://storage.googleapis.com/wz_email_media/images/the_tower_quiz.png"
+    },
+    {
+      "name": "The Star",
+      "image": "https://storage.googleapis.com/wz_email_media/images/the_star_quiz.png"
+    },
+    {
+      "name": "The Moon",
+      "image": "https://storage.googleapis.com/wz_email_media/images/the_moon_quiz.png"
+    },
+    {
+      "name": "The Sun",
+      "image": "https://storage.googleapis.com/wz_email_media/images/the_sun_quiz.png"
+    },
+    {
+      "name": "Judgement",
+      "image": "https://storage.googleapis.com/wz_email_media/images/judgement_quiz.png"
+    },
+    {
+      "name": "The World",
+      "image": "https://storage.googleapis.com/wz_email_media/images/the_world_quiz.png"
+    },
+    {
+      "name": "Ace of Wands",
+      "image": "https://storage.googleapis.com/wz_email_media/images/ace_of_wands_quiz.png"
+    },
+    {
+      "name": "Two of Wands",
+      "image": "https://storage.googleapis.com/wz_email_media/images/two_of_wands_quiz.png"
+    },
+    {
+      "name": "Three of Wands",
+      "image": "https://storage.googleapis.com/wz_email_media/images/three_of_wands_quiz.png"
+    },
+    {
+      "name": "Fourth of Wands",
+      "image": "https://storage.googleapis.com/wz_email_media/images/four_of_wands_quiz.png"
+    },
+    {
+      "name": "Five of Wands",
+      "image": "https://storage.googleapis.com/wz_email_media/images/five_of_wands_quiz.png"
+    },
+    {
+      "name": "Six of Wands",
+      "image": "https://storage.googleapis.com/wz_email_media/images/six_of_wands_quiz.png"
+    },
+    {
+      "name": "Seven of Wands",
+      "image": "https://storage.googleapis.com/wz_email_media/images/seven_of_wands_quiz.png"
+    },
+    {
+      "name": "Eight of Wands",
+      "image": "https://storage.googleapis.com/wz_email_media/images/eight_of_wands_quiz.png"
+    },
+    {
+      "name": "Nine of Wands",
+      "image": "https://storage.googleapis.com/wz_email_media/images/nine_of_wands_quiz.png"
+    },
+    {
+      "name": "Ten of Wands",
+      "image": "https://storage.googleapis.com/wz_email_media/images/ten_of_wands_quiz.png"
+    },
+    {
+      "name": "Page of Wands",
+      "image": "https://storage.googleapis.com/wz_email_media/images/page_of_wands_quiz.png"
+    },
+    {
+      "name": "Knight of Wands",
+      "image": "https://storage.googleapis.com/wz_email_media/images/knight_of_wands_quiz.png"
+    },
+    {
+      "name": "Queen of Wands",
+      "image": "https://storage.googleapis.com/wz_email_media/images/queen_of_wands_quiz.png"
+    },
+    {
+      "name": "King of Wands",
+      "image": "https://storage.googleapis.com/wz_email_media/images/king_of_wands_quiz.png"
+    },
+    {
+      "name": "Ace of Cups",
+      "image": "https://storage.googleapis.com/wz_email_media/images/ace_of_cups_quiz.png"
+    },
+    {
+      "name": "Two of Cups",
+      "image": "https://storage.googleapis.com/wz_email_media/images/two_of_cups_quiz.png"
+    },
+    {
+      "name": "Three of Cups",
+      "image": "https://storage.googleapis.com/wz_email_media/images/three_of_cups_quiz.png"
+    },
+    {
+      "name": "Four of Cups",
+      "image": "https://storage.googleapis.com/wz_email_media/images/four_of_cups_quiz.png"
+    },
+    {
+      "name": "Five of Cups",
+      "image": "https://storage.googleapis.com/wz_email_media/images/five_of_cups_quiz.png"
+    },
+    {
+      "name": "Six of Cups",
+      "image": "https://storage.googleapis.com/wz_email_media/images/six_of_cups_quiz.png"
+    },
+    {
+      "name": "Seven of Cups",
+      "image": "https://storage.googleapis.com/wz_email_media/images/seven_of_cups_quiz.png"
+    },
+    {
+      "name": "Eight of Cups",
+      "image": "https://storage.googleapis.com/wz_email_media/images/eight_of_cups_quiz.png"
+    },
+    {
+      "name": "Nine of Cup",
+      "image": "https://storage.googleapis.com/wz_email_media/images/nine_of_cups_quiz.png"
+    },
+    {
+      "name": "Ten of Cups",
+      "image": "https://storage.googleapis.com/wz_email_media/images/ten_of_cups_quiz.png"
+    },
+    {
+      "name": "Page of Cups",
+      "image": "https://storage.googleapis.com/wz_email_media/images/page_of_cups_quiz.png"
+    },
+    {
+      "name": "Knight of Cups",
+      "image": "https://storage.googleapis.com/wz_email_media/images/knight_of_cups_quiz.png"
+    },
+    {
+      "name": "Queen of Cups",
+      "image": "https://storage.googleapis.com/wz_email_media/images/queen_of_cups_quiz.png"
+    },
+    {
+      "name": "King of Cups",
+      "image": "https://storage.googleapis.com/wz_email_media/images/king_of_cups_quiz.png"
+    },
+    {
+      "name": "Ace of Swords",
+      "image": "https://storage.googleapis.com/wz_email_media/images/ace_of_swords_quiz.png"
+    },
+    {
+      "name": "Two of Swords",
+      "image": "https://storage.googleapis.com/wz_email_media/images/two_of_swords_quiz.png"
+    },
+    {
+      "name": "Three of Swords",
+      "image": "https://storage.googleapis.com/wz_email_media/images/three_of_swords_quiz.png"
+    },
+    {
+      "name": "Four of Swords",
+      "image": "https://storage.googleapis.com/wz_email_media/images/four_of_swords_quiz.png"
+    },
+    {
+      "name": "Five of Swords",
+      "image": "https://storage.googleapis.com/wz_email_media/images/five_of_swords_quiz.png"
+    },
+    {
+      "name": "Six of Swords",
+      "image": "https://storage.googleapis.com/wz_email_media/images/six_of_swords_quiz.png"
+    },
+    {
+      "name": "Seven of Swords",
+      "image": "https://storage.googleapis.com/wz_email_media/images/seven_of_swords_quiz.png"
+    },
+    {
+      "name": "Eight of Swords",
+      "image": "https://storage.googleapis.com/wz_email_media/images/eight_of_swords_quiz.png"
+    },
+    {
+      "name": "Nine of Swords",
+      "image": "https://storage.googleapis.com/wz_email_media/images/nine_of_swords_quiz.png"
+    },
+    {
+      "name": "Ten of Swords",
+      "image": "https://storage.googleapis.com/wz_email_media/images/ten_of_swords_quiz.png"
+    },
+    {
+      "name": "Page of Swords",
+      "image": "https://storage.googleapis.com/wz_email_media/images/page_of_swords_quiz.png"
+    },
+    {
+      "name": "Knight of Swords",
+      "image": "https://storage.googleapis.com/wz_email_media/images/knight_of_swords_quiz.png"
+    },
+    {
+      "name": "Queen of Swords",
+      "image": "https://storage.googleapis.com/wz_email_media/images/queen_of_swords_quiz.png"
+    },
+    {
+      "name": "King of Swords",
+      "image": "https://storage.googleapis.com/wz_email_media/images/king_of_swords_quiz.png"
+    },
+    {
+      "name": "Ace of Pentacles",
+      "image": "https://storage.googleapis.com/wz_email_media/images/ace_of_pentacles_quiz.png"
+    },
+    {
+      "name": "Two of Pentacles",
+      "image": "https://storage.googleapis.com/wz_email_media/images/two_of_pentacles_quiz.png"
+    },
+    {
+      "name": "Three of Pentacles",
+      "image": "https://storage.googleapis.com/wz_email_media/images/three_of_pentacles_quiz.png"
+    },
+    {
+      "name": "Four of Pentacles",
+      "image": "https://storage.googleapis.com/wz_email_media/images/four_of_pentacles_quiz.png"
+    },
+    {
+      "name": "Five of Pentacles",
+      "image": "https://storage.googleapis.com/wz_email_media/images/five_of_pentacles_quiz.png"
+    },
+    {
+      "name": "Six of Pentacles",
+      "image": "https://storage.googleapis.com/wz_email_media/images/six_of_pentacles_quiz.png"
+    },
+    {
+      "name": "Seven of Pentacles",
+      "image": "https://storage.googleapis.com/wz_email_media/images/seven_of_pentacles_quiz.png"
+    },
+    {
+      "name": "Eight of Pentacles",
+      "image": "https://storage.googleapis.com/wz_email_media/images/eight_of_pentacles_quiz.png"
+    },
+    {
+      "name": "Nine of Pentacles",
+      "image": "https://storage.googleapis.com/wz_email_media/images/nine_of_pentacles_quiz.png"
+    },
+    {
+      "name": "Ten of Pentacles",
+      "image": "https://storage.googleapis.com/wz_email_media/images/ten_of_pentacles_quiz.png"
+    },
+    {
+      "name": "Page of Pentacles",
+      "image": "https://storage.googleapis.com/wz_email_media/images/page_of_pentacles_quiz.png"
+    },
+    {
+      "name": "Knight of Pentacles",
+      "image": "https://storage.googleapis.com/wz_email_media/images/knight_of_pentacles_quiz.png"
+    },
+    {
+      "name": "Queen of Pentacles",
+      "image": "https://storage.googleapis.com/wz_email_media/images/queen_of_pentacles_quiz.png"
+    },
+    {
+      "name": "King of Pentacles",
+      "image": "https://storage.googleapis.com/wz_email_media/images/king_of_pentacles_quiz.png"
+    }
+  ]
+}
