@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-
 import { pushToAdsbygoogle } from '../../events';
 import { AdSensePlaceholderStyled, AdvertisementStyled } from './styled';
 
