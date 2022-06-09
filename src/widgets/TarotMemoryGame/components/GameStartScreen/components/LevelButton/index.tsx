@@ -4,7 +4,6 @@ import intermediateImage from '../../../../assets/images/intermediate.png';
 import advancedImage from '../../../../assets/images/advanced.png';
 import { GAME_STATE_LOCAL_STORAGE_NAME, STRING_PER_LEVEL } from '../../../../utils/constants';
 import { setGameStateLocalStorage } from '../../../../../../localstorage';
-import { sendWazimoEvent } from '../../../../../../events';
 import { STRINGS } from '../../../../utils/strings';
 import { useGameStateContext } from '../../../../utils/context';
 import { GameLevel, GameScreen } from '../../../../utils/types';
@@ -20,10 +19,6 @@ const LevelButton = (props: LevelButtonProps) => {
   const { gameState } = useGameStateContext();
   const handleClick = () => {
     setVisit(true);
-    sendWazimoEvent(
-      'Level button click',
-      `tarot-memory-level_${STRING_PER_LEVEL[gameLevel]}_click`,
-    );
     setTimeout(() => {
       setGameStateLocalStorage(GAME_STATE_LOCAL_STORAGE_NAME, {
         ...gameState,

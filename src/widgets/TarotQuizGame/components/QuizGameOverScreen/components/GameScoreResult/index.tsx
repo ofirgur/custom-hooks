@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import { sendWazimoEvent } from '../../../../../../events';
+import React from 'react';
 import { GAME_POINTS } from '../../../../utils/constants';
 import { STRINGS } from '../../../../utils/strings';
 import amazingSvg from '../../../../assets/images/amazing.svg';
@@ -14,14 +13,6 @@ interface GameScoreResultProps {
 
 const GameScoreResult = (props: GameScoreResultProps) => {
   const { points } = props;
-
-  useEffect(() => {
-    sendWazimoEvent(
-      'User`s score',
-      `name-tarot-card-score_${STRINGS.END_SCREEN.EVENT_PER_SCORE(points)}`,
-    );
-  }, [points]);
-
   const getScoreSVG = () => {
     switch (points) {
       case (GAME_POINTS.AMAIZING):

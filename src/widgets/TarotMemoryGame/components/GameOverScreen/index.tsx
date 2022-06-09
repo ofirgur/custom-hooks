@@ -1,7 +1,6 @@
 import React from 'react';
 import { isMobile } from 'react-device-detect';
 import AdSensePlaceholder from '../../../../components/AdSensePlaceholder';
-import { sendWazimoEvent } from '../../../../events';
 import { setGameStateLocalStorage } from '../../../../localstorage';
 import { STRINGS } from '../../utils/strings';
 import { useGameStateContext } from '../../utils/context';
@@ -15,10 +14,6 @@ const GameOverScreen = () => {
   const { gameState } = useGameStateContext();
   const { gameLevel, gameMoves } = gameState;
   const handleStartOver = () => {
-    sendWazimoEvent(
-      'CTA click',
-      'tarot-memory-score_start-over_click',
-    );
     setTimeout(() => {
       setGameStateLocalStorage(
         GAME_STATE_LOCAL_STORAGE_NAME,

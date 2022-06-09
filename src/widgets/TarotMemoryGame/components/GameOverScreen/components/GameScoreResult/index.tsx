@@ -1,6 +1,5 @@
-import React, { useEffect } from 'react';
-import { sendWazimoEvent } from '../../../../../../events';
-import { STRING_PER_POINTS, GAME_POINTS } from '../../../../utils/constants';
+import React from 'react';
+import { GAME_POINTS } from '../../../../utils/constants';
 import { STRINGS } from '../../../../utils/strings';
 import amazingSvg from '../../../../assets/images/amazing.svg';
 import wellDoneSvg from '../../../../assets/images/well_done.svg';
@@ -15,14 +14,6 @@ interface GameScoreResultProps {
 
 const GameScoreResult = (props: GameScoreResultProps) => {
   const { moves, points } = props;
-
-  useEffect(() => {
-    sendWazimoEvent(
-      'User`s score',
-      `tarot-memory-score_${STRING_PER_POINTS[points]}`,
-    );
-  }, [points]);
-
   const getScoreSVG = () => {
     switch (points) {
       case (GAME_POINTS.AMAZING):

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { sendWazimoEvent } from '../../../../../../events';
 import { STRINGS } from '../../../../utils/strings';
 import { GameCard } from '../../../../utils/types';
 import SimpleCard from '../../../SimpleCard';
@@ -28,10 +27,6 @@ const CardQuiz = (props: CardQuizProps) => {
   const handleNameButtonClick = (quizCard: GameCard) => {
     setSelectedName(quizCard.name);
     if (firstClickOnName) {
-      sendWazimoEvent(
-        'First engagement',
-        'name-tarot-card-score_first-click',
-      );
       setFirstClickOnName(false);
     }
   };

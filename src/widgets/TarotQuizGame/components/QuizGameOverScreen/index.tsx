@@ -1,6 +1,5 @@
 import React from 'react';
 import { setGameStateLocalStorage } from '../../../../localstorage';
-import { sendWazimoEvent } from '../../../../events';
 import AdSensPlaceholder from '../../../../components/AdSensePlaceholder';
 import { INITIAL_GAME_STATE, YES_NO_TAROT_URL, GAME_STATE_LOCAL_STORAGE_NAME } from '../../utils/constants';
 import { STRINGS } from '../../utils/strings';
@@ -13,10 +12,6 @@ import { QuizGameOverScreenStyled, StartOverButton, YesNoTarot } from './styled'
 const QuizGameOverScreen = () => {
   const { gameState } = useGameStateContext();
   const handleStartOver = () => {
-    sendWazimoEvent(
-      'CTA click',
-      'name-tarot-card-score_start-over_click',
-    );
     setTimeout(() => {
       setGameStateLocalStorage(
         GAME_STATE_LOCAL_STORAGE_NAME,
@@ -26,10 +21,6 @@ const QuizGameOverScreen = () => {
     }, 1000);
   };
   const handleYesNoTarot = () => {
-    sendWazimoEvent(
-      'CTA click',
-      'name-tarot-card-score_yes-no-tarot_click',
-    );
     setTimeout(() => {
       window.location.href = YES_NO_TAROT_URL;
     }, 1000);
