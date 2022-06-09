@@ -23,16 +23,6 @@ exports[`WidgetsSelection should render correctly 1`] = `
       >
         Tarot Quiz Game
       </div>
-      <div
-        class="css-1flu1tv"
-      >
-        Books Game
-      </div>
-      <div
-        class="css-1flu1tv"
-      >
-        Prayer Generator
-      </div>
     </div>
   </div>
 </div>
