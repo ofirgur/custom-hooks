@@ -16,12 +16,6 @@ jest.mock('../../utils/context', () => {
   }
 });
 
-jest.mock('../../../../localstorage', () => {
-  return {
-    setGameStateLocalStorage: jest.fn(),
-  }
-});
-
 describe('QuizGameOverScreen', () => {
   it('should render correctly', () => {
     const { container } = render(<QuizGameOverScreen />);

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { setGameStateLocalStorage } from '../../../../../../localstorage';
 import { useGameStateContext } from '../../../../utils/context';
-import { QUIZ_INDICATOR_ARRAY, GAME_LAST_MATCHE, GAME_STATE_LOCAL_STORAGE_NAME } from '../../../../utils/constants';
+import { QUIZ_INDICATOR_ARRAY, GAME_LAST_MATCHE } from '../../../../utils/constants';
 import { GameCard, GameMatch, GameScreen } from '../../../../utils/types';
 import CardQuiz from '../CardQuiz';
 import QuizTimeline from './components/QuizTimeline';
@@ -12,22 +11,18 @@ type CardsListProps = {
 
 const CardsList = (props: CardsListProps) => {
   const { cards } = props;
-  const { gameState } = useGameStateContext();
+  const { gameState, setGameState } = useGameStateContext();
   const [cardIndex, setCardIndex] = useState(0);
   const [matches, setMatches] = useState<GameMatch[] | []>([]);
   const [firstClickOnName, setFirstClickOnName] = useState(true);
 
   useEffect(() => {
     if (matches.length === cards.length) {
-      setGameStateLocalStorage(
-        GAME_STATE_LOCAL_STORAGE_NAME,
-        {
+      setGameState({
           ...gameState,
           gameScreen: GameScreen.end,
           gameMatches: matches,
-        },
-        true,
-      );
+      });
     }
   }, [matches]);
 

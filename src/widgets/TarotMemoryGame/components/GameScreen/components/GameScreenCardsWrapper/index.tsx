@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { GAME_STATE_LOCAL_STORAGE_NAME, SCORE_PAGE_URL } from '../../../../utils/constants';
-import { setGameStateLocalStorage } from '../../../../../../localstorage';
 import { useGameStateContext } from '../../../../utils/context';
 import { getPacketCards } from '../../../../utils/logic';
 import { GameCard, GameScreen, MetchCardInterface, PacketCard } from '../../../../utils/types';
@@ -16,7 +14,7 @@ interface GameScreenCardsWrapperProps {
 
 const GameScreenCardsWrapper = (props: GameScreenCardsWrapperProps) => {
   const { matches, handleMatches, moves, handleMoves } = props;
-  const { gameState } = useGameStateContext();
+  const { gameState, setGameState } = useGameStateContext();
   const { gameCards } = gameState;
   const numberOfGameCards = gameCards.length;
   const [packetCards] = useState<PacketCard[]>(getPacketCards(gameCards));
@@ -26,12 +24,12 @@ const GameScreenCardsWrapper = (props: GameScreenCardsWrapperProps) => {
   useEffect(() => {
     if (matchedCards.length === numberOfGameCards) {
       setTimeout(() => {
-        setGameStateLocalStorage(GAME_STATE_LOCAL_STORAGE_NAME, {
+        setGameState({
           ...gameState,
           gameScreen: GameScreen.end,
           gameMoves: moves,
           gameMatches: matches,
-        }, true);
+        });
       }, 2000);
     }
   }, [matchedCards]);

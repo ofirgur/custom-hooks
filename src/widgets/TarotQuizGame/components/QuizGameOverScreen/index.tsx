@@ -1,7 +1,6 @@
 import React from 'react';
-import { setGameStateLocalStorage } from '../../../../localstorage';
 import AdSensPlaceholder from '../../../../components/AdSensePlaceholder';
-import { INITIAL_GAME_STATE, YES_NO_TAROT_URL, GAME_STATE_LOCAL_STORAGE_NAME } from '../../utils/constants';
+import { INITIAL_GAME_STATE, YES_NO_TAROT_URL } from '../../utils/constants';
 import { STRINGS } from '../../utils/strings';
 import { getGamePoints } from '../../utils/logic';
 import { useGameStateContext } from '../../utils/context';
@@ -10,14 +9,10 @@ import GameOverCardList from './components/GameOverCardsList';
 import { QuizGameOverScreenStyled, StartOverButton, YesNoTarot } from './styled';
 
 const QuizGameOverScreen = () => {
-  const { gameState } = useGameStateContext();
+  const { gameState, setGameState } = useGameStateContext();
   const handleStartOver = () => {
     setTimeout(() => {
-      setGameStateLocalStorage(
-        GAME_STATE_LOCAL_STORAGE_NAME,
-        INITIAL_GAME_STATE,
-        true,
-      );
+      setGameState(INITIAL_GAME_STATE);
     }, 1000);
   };
   const handleYesNoTarot = () => {

@@ -1,25 +1,20 @@
 import React from 'react';
 import { isMobile } from 'react-device-detect';
 import AdSensePlaceholder from '../../../../components/AdSensePlaceholder';
-import { setGameStateLocalStorage } from '../../../../localstorage';
 import { STRINGS } from '../../utils/strings';
 import { useGameStateContext } from '../../utils/context';
-import { INITIAL_GAME_STATE, GAME_STATE_LOCAL_STORAGE_NAME } from '../../utils/constants';
+import { INITIAL_GAME_STATE } from '../../utils/constants';
 import { getGamePoints } from '../../utils/logic';
 import GameCardsList from './components/GameCardsList';
 import GameScoreResult from './components/GameScoreResult';
 import { Styled, StartOverButton, ReadMore } from './styled';
 
 const GameOverScreen = () => {
-  const { gameState } = useGameStateContext();
+  const { gameState, setGameState } = useGameStateContext();
   const { gameLevel, gameMoves } = gameState;
   const handleStartOver = () => {
     setTimeout(() => {
-      setGameStateLocalStorage(
-        GAME_STATE_LOCAL_STORAGE_NAME,
-        INITIAL_GAME_STATE,
-        true,
-      );
+      setGameState(INITIAL_GAME_STATE);
     }, 500);
   };
 

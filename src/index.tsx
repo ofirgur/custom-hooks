@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { injectAnalyticsScript, injectAdsScript, resetScrollPositionBeforeUnload } from './scripts';
+import { injectAdsScript, resetScrollPositionBeforeUnload } from './scripts';
 import WidgetsSelection from './components/WidgetsSelection';
 import './index.css';
 
-injectAnalyticsScript();
 injectAdsScript();
 resetScrollPositionBeforeUnload();
 

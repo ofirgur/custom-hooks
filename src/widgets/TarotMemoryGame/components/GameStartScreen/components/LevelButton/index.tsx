@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import begginerImage from '../../../../assets/images/beginner.png';
 import intermediateImage from '../../../../assets/images/intermediate.png';
 import advancedImage from '../../../../assets/images/advanced.png';
-import { GAME_STATE_LOCAL_STORAGE_NAME, STRING_PER_LEVEL } from '../../../../utils/constants';
-import { setGameStateLocalStorage } from '../../../../../../localstorage';
 import { STRINGS } from '../../../../utils/strings';
 import { useGameStateContext } from '../../../../utils/context';
 import { GameLevel, GameScreen } from '../../../../utils/types';
@@ -16,15 +14,15 @@ type LevelButtonProps = {
 const LevelButton = (props: LevelButtonProps) => {
   const { gameLevel } = props;
   const [visit, setVisit] = useState(false);
-  const { gameState } = useGameStateContext();
+  const { gameState, setGameState } = useGameStateContext();
   const handleClick = () => {
     setVisit(true);
     setTimeout(() => {
-      setGameStateLocalStorage(GAME_STATE_LOCAL_STORAGE_NAME, {
+      setGameState({
         ...gameState,
         gameLevel,
         gameScreen: GameScreen.game,
-      }, true);
+      });
     }, 1000);
   };
 
