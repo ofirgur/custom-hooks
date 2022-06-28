@@ -8,6 +8,7 @@ export interface GameState {
 }
 
 export enum GameScreen {
-  game = 1,
-  end = 2,
+  Start = 1,
+  Card = 2,
+  Over = 3,
 }
