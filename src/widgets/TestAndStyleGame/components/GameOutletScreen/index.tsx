@@ -1,15 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import { useGameStateContext } from '../../utils/context';
 import { GameScreen } from '../../utils/types';
 import GameStartScreen from '../GameStartScreen';
 import GameCardScreen from '../GameCardScreen';
 import GameOverScreen from '../GameOverScreen';
-import { GameOutletScreenStyled } from './styled';
 
 const GameOutletScreen = () => {
-  const { gameState } = useGameStateContext();
+  const { gameState, setGameState } = useGameStateContext();
   const { gameScreen } = gameState;
+  console.log('GameOutletScreen - gameState: ', gameState);
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = async () => {
+    fetch('https://jsonplaceholder.typicode.com/posts')
+      .then(response => response.json())
+      .then(json => setGameState({
+        gamePosts: json,
+      }));
+  };
 
   const renderScreen = () => {
     switch (gameScreen) {
@@ -20,9 +32,9 @@ const GameOutletScreen = () => {
   };
   
   return (
-    <GameOutletScreenStyled>
+    <>
       {renderScreen()}
-    </GameOutletScreenStyled>
+    </>
   );
 };
 

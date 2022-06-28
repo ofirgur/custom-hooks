@@ -5,10 +5,19 @@ export interface GameStateContextInterface {
 
 export interface GameState {
   gameScreen: GameScreen;
+  gamePosts: GamePost[];
+  selectedGamePost?: GamePost;
 }
 
 export enum GameScreen {
   Start = 1,
   Card = 2,
   Over = 3,
+}
+
+export interface GamePost {
+  userId: number,
+  id: number,
+  title: string,
+  body: string,
 }
