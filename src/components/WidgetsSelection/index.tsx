@@ -6,6 +6,7 @@ import { WIDGETS } from './widgets';
 
 const TarotMemoryGame = React.lazy(() => import(/* webpackChunkName: "tarot-memory-game" */'../../widgets/TarotMemoryGame'));
 const TarotQuizGame = React.lazy(() => import(/* webpackChunkName: "tarot-quiz-game" */'../../widgets/TarotQuizGame'));
+const TestAndStyleGame = React.lazy(() => import(/* webpackChunkName: "test-and-style-game" */'../../widgets/TestAndStyleGame'));
 
 const games = {
   [PATHNAMES.tarotMemoryGame]: TarotMemoryGame,
@@ -39,6 +40,14 @@ const WidgetsSelection = ({ widgetName }: { widgetName: string }) => {
             element={(
               <Suspense fallback={<>...</>}>
                 <TarotQuizGame />
+              </Suspense>
+            )}
+          />
+          <Route
+            path={PATHNAMES.testandstylegame}
+            element={(
+              <Suspense fallback={<>...</>}>
+                <TestAndStyleGame />
               </Suspense>
             )}
           />

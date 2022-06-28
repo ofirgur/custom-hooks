@@ -16,4 +16,11 @@ export const WIDGETS = [
     title: STRINGS.TAROT_QUIZ_GAME,
     icon: '',
   },
+  {
+    key: 'TestAndStyleGame',
+    name: 'tarotquizgame',
+    path: PATHNAMES.testandstylegame,
+    title: STRINGS.TEST_AND_STYLE_GAME,
+    icon: '',
+  },
 ];
