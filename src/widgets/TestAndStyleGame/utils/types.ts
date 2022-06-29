@@ -6,7 +6,7 @@ export interface GameStateContextInterface {
 export interface GameState {
   gameScreen: GameScreen;
   gamePosts: GamePost[];
-  selectedGamePost?: GamePost;
+  gameSelectedPost?: GamePost;
 }
 
 export enum GameScreen {

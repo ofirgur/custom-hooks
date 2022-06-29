@@ -11,14 +11,14 @@ const GameCardScreen = () => {
   const handleBack = () => {
     setGameState({
       gameScreen: GameScreen.Start,
-      selectedGamePost: undefined,
+      gameSelectedPost: undefined,
     });
   };
 
   return (
     <GameCardScreenStyled>
-      <TitleStyled>{gameState.selectedGamePost?.title}</TitleStyled>
-      <BodyStyled>{gameState.selectedGamePost?.body}</BodyStyled>
+      <TitleStyled>{gameState.gameSelectedPost?.title}</TitleStyled>
+      <BodyStyled>{gameState.gameSelectedPost?.body}</BodyStyled>
       <BackBotton onClick={handleBack}>{STRINGS.CARD_SCREEN.BACK}</BackBotton>
     </GameCardScreenStyled>
   );

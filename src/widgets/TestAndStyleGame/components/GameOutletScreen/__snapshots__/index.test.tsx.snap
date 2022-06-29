@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameOutletScreen should render correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="css-wi1r3z"
+    >
+      sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+    </div>
+    <div
+      class="css-wi1r3z"
+    >
+      qui est esse
+    </div>
+    <div
+      class="css-wi1r3z"
+    >
+      ea molestias quasi exercitationem repellat qui ipsa sit aut
+    </div>
+    <div
+      class="css-wi1r3z"
+    >
+      eum et est occaecati
+    </div>
+    <div
+      class="css-wi1r3z"
+    >
+      nesciunt quas odio
+    </div>
+    <div
+      class="css-wi1r3z"
+    >
+      dolorem eum magni eos aperiam quia
+    </div>
+    <div
+      class="css-wi1r3z"
+    >
+      magnam facilis autem
+    </div>
+  </div>
+</div>
+`;

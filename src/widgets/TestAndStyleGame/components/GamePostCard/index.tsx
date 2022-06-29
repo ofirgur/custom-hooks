@@ -15,7 +15,7 @@ const GamePostCard = (props: GamePostCardProps) => {
   const handleClick = () => {
     setGameState({
       gameScreen: GameScreen.Card,
-      selectedGamePost: post,
+      gameSelectedPost: post,
     });
   };
   
