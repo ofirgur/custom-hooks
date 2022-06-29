@@ -20,7 +20,7 @@ const GamePostCard = (props: GamePostCardProps) => {
   };
   
   return (
-    <GamePostCardStyled onClick={handleClick}>
+    <GamePostCardStyled role="button" onClick={handleClick}>
       {post.title}
     </GamePostCardStyled>
   );

@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const GamePostCardStyled = styled.div`
+export const GamePostCardStyled = styled.section`
     background: #FFF;
     height: 200px;
     display: flex;
