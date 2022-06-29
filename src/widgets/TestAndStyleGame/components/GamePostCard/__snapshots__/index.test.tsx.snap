@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GamePostCard should render correctly 1`] = `
+<div>
+  <section
+    class="css-wi1r3z"
+    role="button"
+  >
+    ea molestias quasi exercitationem repellat qui ipsa sit aut
+  </section>
+</div>
+`;
