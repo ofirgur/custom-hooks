@@ -2,7 +2,9 @@ import React from 'react';
 
 import { useGameStateContext } from '../../utils/context';
 import { GamePost } from '../../utils/types';
+import { STRINGS } from '../../utils/strings';
 import GamePostCard from '../GamePostCard';
+import { GameStartScreenStyled, GameStartScreenTitleStyled } from './styled';
 
 const GameStartScreen = () => {
   const { gameState } = useGameStateContext();
@@ -14,9 +16,10 @@ const GameStartScreen = () => {
   };
 
   return (
-    <div>
+    <GameStartScreenStyled>
+      <GameStartScreenTitleStyled>{STRINGS.SRTART_SCREEN.TITLE}</GameStartScreenTitleStyled>
       {renderPosts(gameState.gamePosts)}
-    </div>
+    </GameStartScreenStyled>
   );
 };
 
