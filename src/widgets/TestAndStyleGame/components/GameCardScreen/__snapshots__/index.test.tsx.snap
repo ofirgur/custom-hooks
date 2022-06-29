@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameCardScreen should render correctly 1`] = `
+<div>
+  <div
+    class="css-195sjo6"
+  >
+    <h1
+      class="css-kvywuf"
+    >
+      ea molestias quasi exercitationem repellat qui ipsa sit aut
+    </h1>
+    <section
+      class="css-kvywuf"
+    >
+      et iusto sed quo iure
+voluptatem occaecati omnis eligendi aut ad
+voluptatem doloribus vel accusantium quis pariatur
+molestiae porro eius odio et labore et velit aut
+    </section>
+    <button
+      class="css-ga8kd7"
+    >
+      BACK
+    </button>
+  </div>
+</div>
+`;
