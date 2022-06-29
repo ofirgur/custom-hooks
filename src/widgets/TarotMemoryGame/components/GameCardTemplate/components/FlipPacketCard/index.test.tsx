@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { render } from '@testing-library/react';
-import userEvent from '@testing-library/user-event'
-import closeCardImage from '../../../../assets/images/card.png';
+import userEvent from '@testing-library/user-event';
 import { mockedPacketCard } from '../../../../utils/mocks';
 import FlipPacketCard from '.';
 
