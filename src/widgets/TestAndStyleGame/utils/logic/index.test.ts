@@ -4,7 +4,8 @@
 // and testing became a more integral part of the job of web developers.
 
 // Today’s cutting edge website testing tools are fast, 
-// informative, and easy to work with. These tools would make your testing and developing experience much more enjoyable.
+// informative, and easy to work with. 
+// These tools would make your testing and developing experience much more enjoyable.
 
 // In general, the central test types for websites are:
 // Unit Tests - Testing of individual units like functions or classes by supplying input and making sure the output is as expected
