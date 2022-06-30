@@ -1,5 +1,3 @@
-import { _sum, _toLowwerCase, _sumWithInitial } from '.';
-
 // Nowadays, the website testing field has stabilized. 
 // Several testing tools receive very positive feedback from their users, 
 // well-known testing best practices has emerged, 
@@ -27,16 +25,18 @@ import { _sum, _toLowwerCase, _sumWithInitial } from '.';
 
 // https://medium.com/welldone-software/an-overview-of-javascript-testing-7ce7298b9870
 
+import { _sum, _toLowwerCase, _sumWithInitial } from '.';
+
 describe('Test Logic', () => {
     it('should sum correctly' , () => {
-        expect(_sum(2, 3)).toBe(2 + 3);
+        expect(_sum(2, 3)).toBe(5);
     });
 
     it('should lowwer case correctly' , () => {
         expect(_toLowwerCase('AAA')).toEqual('aaa');
     });
 
-    it('should reduce with initial', () => {
+    it('should reduce with initial value', () => {
         expect(_sumWithInitial(100, [1, 2, 3, 4])).toBe(110);
     });
  });
