@@ -23,6 +23,11 @@ exports[`WidgetsDashboard should render correctly 1`] = `
       >
         Tarot Quiz Game
       </div>
+      <div
+        class="css-1flu1tv"
+      >
+        Test and Style Game
+      </div>
     </div>
   </div>
 </div>
