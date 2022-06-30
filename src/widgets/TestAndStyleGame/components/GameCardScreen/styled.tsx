@@ -21,7 +21,7 @@ export const BackBotton = styled.button`
     height: 50px;
     line-height: 50px;
     background-color: #FFF;
-    radius: 0;
+    border: 0;
     border-radius: 15px;
     margin: 0 auto;
     display: block;
