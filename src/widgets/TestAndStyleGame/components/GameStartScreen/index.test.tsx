@@ -2,7 +2,7 @@ import * as React from 'react';
 import { render, screen } from '@testing-library/react';
 
 import { mockedGameState } from '../../utils/mocks';
-import GameStartScreen from './index';
+import GameStartScreen from '.';
 
 const mockedSetGameState = jest.fn();
 jest.mock('../../utils/context', () => {

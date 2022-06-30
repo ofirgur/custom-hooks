@@ -4,7 +4,7 @@ import userEvent from '@testing-library/user-event';
 
 import { GameScreen } from '../../utils/types';
 import { mockedGameState } from '../../utils/mocks';
-import GamePostCard from './index';
+import GamePostCard from '.';
 
 const mockedSetGameState = jest.fn();
 jest.mock('../../utils/context', () => {

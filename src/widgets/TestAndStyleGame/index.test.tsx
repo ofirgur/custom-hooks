@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { render } from '@testing-library/react';
-import TestAndStyleGame from './index';
+import TestAndStyleGame from '.';
 
 // Snapshot tests are a very useful tool whenever you want to make sure your UI does not change unexpectedly.
 // A typical snapshot test case renders a UI component, takes a snapshot, 

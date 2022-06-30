@@ -2,7 +2,7 @@ import * as React from 'react';
 import { render } from '@testing-library/react';
 
 import { mockedGameState } from '../../utils/mocks';
-import GameOutletScreen from './index';
+import GameOutletScreen from '.';
 
 // The jest object is automatically in scope within every test file. 
 // The methods in the jest object help create mocks and let you control Jest's overall behavior. 
